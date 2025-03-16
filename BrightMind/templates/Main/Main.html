@@ -1,0 +1,9 @@
+{% extends "registration/base.html" %}
+{% block title %}الصفحة الرئيسية{% endblock %}
+
+{% block content %}
+<div class="welcome-container">
+    <h2>مرحبًا، {{ user.username }}!</h2>
+    <p>لقد قمت بتسجيل الدخول بنجاح.</p>
+</div>
+{% endblock %}
